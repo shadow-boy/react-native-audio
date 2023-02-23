@@ -27,10 +27,11 @@ import android.os.Build;
 import android.os.Environment;
 import android.media.MediaRecorder;
 import android.media.AudioManager;
-import android.support.v4.app.ActivityCompat;
-import android.support.v4.content.ContextCompat;
 import android.util.Base64;
 import android.util.Log;
+
+import androidx.core.content.ContextCompat;
+
 import com.facebook.react.modules.core.DeviceEventManagerModule;
 
 import java.io.FileInputStream;
